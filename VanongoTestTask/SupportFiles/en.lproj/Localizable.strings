@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  VanongoTestTask
+
+  Created by Maria Ugorets on 01.09.2021.
+  
+*/
+
+"Back" = "Back";
+"NotesForDriver" = "Notes for driver";
+"Order" = "Order";
+"StartWriting" = "Start writing";
+"NoteTextViewTitle" = "What do you plan to transport or how to find you";
+"AddPhoto" = "Add photo";

@@ -1,0 +1,14 @@
+/* 
+  Localization.strings
+  VanongoTestTask
+
+  Created by Maria Ugorets on 01.09.2021.
+  
+*/
+
+"Back" = "Назад";
+"NotesForDriver" = "Заметки для водителя";
+"Order" = "Заказ";
+"StartWriting" = "Начните писать";
+"NoteTextViewTitle" = "Что планируете перевозить или как вас найти";
+"AddPhoto" = "Добавить фото";

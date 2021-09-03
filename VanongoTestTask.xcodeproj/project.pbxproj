@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		410AF3B626DF59D0004A62C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410AF3B526DF59D0004A62C9 /* AppDelegate.swift */; };
+		410AF3B826DF59D0004A62C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410AF3B726DF59D0004A62C9 /* SceneDelegate.swift */; };
+		410AF3BA26DF59D0004A62C9 /* OrdersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410AF3B926DF59D0004A62C9 /* OrdersListViewController.swift */; };
+		410AF3BF26DF59D2004A62C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 410AF3BE26DF59D2004A62C9 /* Assets.xcassets */; };
+		410AF3C226DF59D2004A62C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 410AF3C026DF59D2004A62C9 /* LaunchScreen.storyboard */; };
+		410AF3CA26DF60B5004A62C9 /* OrderDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410AF3C926DF60B5004A62C9 /* OrderDetailsViewController.swift */; };
+		410AF3CE26DF64BB004A62C9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 410AF3D026DF64BB004A62C9 /* Localizable.strings */; };
+		410AF3D426DF661E004A62C9 /* String+Localize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410AF3D326DF661E004A62C9 /* String+Localize.swift */; };
+		410AF3D726DF7080004A62C9 /* ViewControllerEx+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410AF3D626DF7080004A62C9 /* ViewControllerEx+Keyboard.swift */; };
+		41AEDC6226DFEFF9007310B0 /* OrderDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AEDC6126DFEFF9007310B0 /* OrderDetailModel.swift */; };
+		41AEDC6626E0C43F007310B0 /* NoteObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AEDC6526E0C43F007310B0 /* NoteObject.swift */; };
+		41AEDC6826E0C4E3007310B0 /* OrdersStorageImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AEDC6726E0C4E3007310B0 /* OrdersStorageImp.swift */; };
+		41AEDC6A26E11477007310B0 /* OrderListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AEDC6926E11476007310B0 /* OrderListModel.swift */; };
+		41AEDC6D26E11A3E007310B0 /* PhotoContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AEDC6C26E11A3E007310B0 /* PhotoContainerView.swift */; };
+		41AEDC6F26E22579007310B0 /* Realm+write.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AEDC6E26E22579007310B0 /* Realm+write.swift */; };
+		41CFB88326DFBE3300043782 /* UIButton+Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CFB88226DFBE3300043782 /* UIButton+Alignment.swift */; };
+		41CFB88526DFBF0900043782 /* UIView+Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CFB88426DFBF0900043782 /* UIView+Layer.swift */; };
+		87772C29A3027C364B48994B /* Pods_VanongoTestTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5226091B020D286C173936C1 /* Pods_VanongoTestTask.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		410AF3B226DF59D0004A62C9 /* VanongoTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VanongoTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		410AF3B526DF59D0004A62C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		410AF3B726DF59D0004A62C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		410AF3B926DF59D0004A62C9 /* OrdersListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersListViewController.swift; sourceTree = "<group>"; };
+		410AF3BE26DF59D2004A62C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		410AF3C126DF59D2004A62C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		410AF3C926DF60B5004A62C9 /* OrderDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailsViewController.swift; sourceTree = "<group>"; };
+		410AF3CB26DF6462004A62C9 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		410AF3CF26DF64BB004A62C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		410AF3D126DF64BE004A62C9 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		410AF3D326DF661E004A62C9 /* String+Localize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Localize.swift"; sourceTree = "<group>"; };
+		410AF3D626DF7080004A62C9 /* ViewControllerEx+Keyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewControllerEx+Keyboard.swift"; sourceTree = "<group>"; };
+		41AEDC5F26DFD002007310B0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41AEDC6126DFEFF9007310B0 /* OrderDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailModel.swift; sourceTree = "<group>"; };
+		41AEDC6526E0C43F007310B0 /* NoteObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteObject.swift; sourceTree = "<group>"; };
+		41AEDC6726E0C4E3007310B0 /* OrdersStorageImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersStorageImp.swift; sourceTree = "<group>"; };
+		41AEDC6926E11476007310B0 /* OrderListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListModel.swift; sourceTree = "<group>"; };
+		41AEDC6C26E11A3E007310B0 /* PhotoContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoContainerView.swift; sourceTree = "<group>"; };
+		41AEDC6E26E22579007310B0 /* Realm+write.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Realm+write.swift"; sourceTree = "<group>"; };
+		41CFB88226DFBE3300043782 /* UIButton+Alignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Alignment.swift"; sourceTree = "<group>"; };
+		41CFB88426DFBF0900043782 /* UIView+Layer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Layer.swift"; sourceTree = "<group>"; };
+		5226091B020D286C173936C1 /* Pods_VanongoTestTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VanongoTestTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		968DC67DAC2542B961BBECD7 /* Pods-VanongoTestTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VanongoTestTask.debug.xcconfig"; path = "Target Support Files/Pods-VanongoTestTask/Pods-VanongoTestTask.debug.xcconfig"; sourceTree = "<group>"; };
+		E279B3F84A6FB07433FDF4FF /* Pods-VanongoTestTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VanongoTestTask.release.xcconfig"; path = "Target Support Files/Pods-VanongoTestTask/Pods-VanongoTestTask.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		410AF3AF26DF59D0004A62C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87772C29A3027C364B48994B /* Pods_VanongoTestTask.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		410AF3A926DF59D0004A62C9 = {
+			isa = PBXGroup;
+			children = (
+				410AF3B426DF59D0004A62C9 /* VanongoTestTask */,
+				410AF3B326DF59D0004A62C9 /* Products */,
+				C70DB0BEC92997E2FF1DA2F1 /* Pods */,
+				EA5AF0D50D2EFDACAAA60C34 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		410AF3B326DF59D0004A62C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				410AF3B226DF59D0004A62C9 /* VanongoTestTask.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		410AF3B426DF59D0004A62C9 /* VanongoTestTask */ = {
+			isa = PBXGroup;
+			children = (
+				41AEDC5F26DFD002007310B0 /* Info.plist */,
+				410AF3D526DF7068004A62C9 /* Extension */,
+				410AF3B526DF59D0004A62C9 /* AppDelegate.swift */,
+				410AF3B726DF59D0004A62C9 /* SceneDelegate.swift */,
+				410AF3D226DF65E4004A62C9 /* SupportFiles */,
+				41AEDC6426E0C426007310B0 /* Storage */,
+				41AEDC6B26E11539007310B0 /* OrderList */,
+				41AEDC6326DFF237007310B0 /* OrderDetails */,
+			);
+			path = VanongoTestTask;
+			sourceTree = "<group>";
+		};
+		410AF3D226DF65E4004A62C9 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				410AF3D026DF64BB004A62C9 /* Localizable.strings */,
+				410AF3C026DF59D2004A62C9 /* LaunchScreen.storyboard */,
+				410AF3BE26DF59D2004A62C9 /* Assets.xcassets */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		410AF3D526DF7068004A62C9 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				410AF3D626DF7080004A62C9 /* ViewControllerEx+Keyboard.swift */,
+				410AF3D326DF661E004A62C9 /* String+Localize.swift */,
+				41CFB88226DFBE3300043782 /* UIButton+Alignment.swift */,
+				41CFB88426DFBF0900043782 /* UIView+Layer.swift */,
+				41AEDC6E26E22579007310B0 /* Realm+write.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		41AEDC6326DFF237007310B0 /* OrderDetails */ = {
+			isa = PBXGroup;
+			children = (
+				410AF3C926DF60B5004A62C9 /* OrderDetailsViewController.swift */,
+				41AEDC6126DFEFF9007310B0 /* OrderDetailModel.swift */,
+				41AEDC6C26E11A3E007310B0 /* PhotoContainerView.swift */,
+			);
+			path = OrderDetails;
+			sourceTree = "<group>";
+		};
+		41AEDC6426E0C426007310B0 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				41AEDC6526E0C43F007310B0 /* NoteObject.swift */,
+				41AEDC6726E0C4E3007310B0 /* OrdersStorageImp.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		41AEDC6B26E11539007310B0 /* OrderList */ = {
+			isa = PBXGroup;
+			children = (
+				410AF3B926DF59D0004A62C9 /* OrdersListViewController.swift */,
+				41AEDC6926E11476007310B0 /* OrderListModel.swift */,
+			);
+			path = OrderList;
+			sourceTree = "<group>";
+		};
+		C70DB0BEC92997E2FF1DA2F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				968DC67DAC2542B961BBECD7 /* Pods-VanongoTestTask.debug.xcconfig */,
+				E279B3F84A6FB07433FDF4FF /* Pods-VanongoTestTask.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EA5AF0D50D2EFDACAAA60C34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5226091B020D286C173936C1 /* Pods_VanongoTestTask.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		410AF3B126DF59D0004A62C9 /* VanongoTestTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 410AF3C626DF59D2004A62C9 /* Build configuration list for PBXNativeTarget "VanongoTestTask" */;
+			buildPhases = (
+				E45A274DC3D9FD8A1D8D7B67 /* [CP] Check Pods Manifest.lock */,
+				410AF3AE26DF59D0004A62C9 /* Sources */,
+				410AF3AF26DF59D0004A62C9 /* Frameworks */,
+				410AF3B026DF59D0004A62C9 /* Resources */,
+				2963C5799A5A732C41073E86 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VanongoTestTask;
+			productName = VanongoTestTask;
+			productReference = 410AF3B226DF59D0004A62C9 /* VanongoTestTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		410AF3AA26DF59D0004A62C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					410AF3B126DF59D0004A62C9 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 410AF3AD26DF59D0004A62C9 /* Build configuration list for PBXProject "VanongoTestTask" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+			);
+			mainGroup = 410AF3A926DF59D0004A62C9;
+			productRefGroup = 410AF3B326DF59D0004A62C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				410AF3B126DF59D0004A62C9 /* VanongoTestTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		410AF3B026DF59D0004A62C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410AF3C226DF59D2004A62C9 /* LaunchScreen.storyboard in Resources */,
+				410AF3CE26DF64BB004A62C9 /* Localizable.strings in Resources */,
+				410AF3BF26DF59D2004A62C9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2963C5799A5A732C41073E86 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VanongoTestTask/Pods-VanongoTestTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VanongoTestTask/Pods-VanongoTestTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VanongoTestTask/Pods-VanongoTestTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E45A274DC3D9FD8A1D8D7B67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VanongoTestTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		410AF3AE26DF59D0004A62C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410AF3CA26DF60B5004A62C9 /* OrderDetailsViewController.swift in Sources */,
+				410AF3BA26DF59D0004A62C9 /* OrdersListViewController.swift in Sources */,
+				410AF3B626DF59D0004A62C9 /* AppDelegate.swift in Sources */,
+				410AF3D426DF661E004A62C9 /* String+Localize.swift in Sources */,
+				41AEDC6626E0C43F007310B0 /* NoteObject.swift in Sources */,
+				41CFB88326DFBE3300043782 /* UIButton+Alignment.swift in Sources */,
+				41AEDC6226DFEFF9007310B0 /* OrderDetailModel.swift in Sources */,
+				41CFB88526DFBF0900043782 /* UIView+Layer.swift in Sources */,
+				41AEDC6826E0C4E3007310B0 /* OrdersStorageImp.swift in Sources */,
+				41AEDC6D26E11A3E007310B0 /* PhotoContainerView.swift in Sources */,
+				410AF3B826DF59D0004A62C9 /* SceneDelegate.swift in Sources */,
+				41AEDC6A26E11477007310B0 /* OrderListModel.swift in Sources */,
+				410AF3D726DF7080004A62C9 /* ViewControllerEx+Keyboard.swift in Sources */,
+				41AEDC6F26E22579007310B0 /* Realm+write.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		410AF3C026DF59D2004A62C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				410AF3C126DF59D2004A62C9 /* Base */,
+				410AF3CB26DF6462004A62C9 /* ru */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		410AF3D026DF64BB004A62C9 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				410AF3CF26DF64BB004A62C9 /* en */,
+				410AF3D126DF64BE004A62C9 /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		410AF3C426DF59D2004A62C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		410AF3C526DF59D2004A62C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		410AF3C726DF59D2004A62C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 968DC67DAC2542B961BBECD7 /* Pods-VanongoTestTask.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9T287234W9;
+				INFOPLIST_FILE = VanongoTestTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MU.VanongoTestTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		410AF3C826DF59D2004A62C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E279B3F84A6FB07433FDF4FF /* Pods-VanongoTestTask.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9T287234W9;
+				INFOPLIST_FILE = VanongoTestTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MU.VanongoTestTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		410AF3AD26DF59D0004A62C9 /* Build configuration list for PBXProject "VanongoTestTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410AF3C426DF59D2004A62C9 /* Debug */,
+				410AF3C526DF59D2004A62C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		410AF3C626DF59D2004A62C9 /* Build configuration list for PBXNativeTarget "VanongoTestTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410AF3C726DF59D2004A62C9 /* Debug */,
+				410AF3C826DF59D2004A62C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 410AF3AA26DF59D0004A62C9 /* Project object */;
+}
